@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="#" method="get">
+
+    <div class="container">
+      <label for="name"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="name" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <div class="slidecontainer">
+        <span class="tooltip">0</span>
+        <label for="slider">Max floor access</label>
+        <input type="range" min="0" max="10" value="0" class="slider" id="myRange" name="slider">
+      </div>
+      <label style="margin-top: 15px;" class="containerChk">
+        <input type="checkbox" checked="checked" name="remember">Remember me
+        <span class="checkmark"></span>
+      </label>
+    </div>
+
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
