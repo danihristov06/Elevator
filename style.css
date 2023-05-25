@@ -24,7 +24,7 @@ form {
     border-radius: 10px;
   }
   
-  /* Set a style for all buttons */
+  /* Style for all buttons */
   button {
     background-color: #04AA6D;
     color: white;
@@ -36,12 +36,11 @@ form {
     border-radius: 10px;
   }
   
-  /* Add a hover effect for buttons */
+  /* Hover effect for buttons */
   button:hover {
     opacity: 0.8;
   }
   
-  /* Add padding to containers */
   .container {
     padding: 16px;
   }
@@ -148,7 +147,7 @@ form {
   width: 0;
 }
 
-/* Create a custom checkbox */
+/* Custom checkbox */
 .checkmark {
   position: absolute;
   top: 0;
