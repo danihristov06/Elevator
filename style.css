@@ -86,6 +86,7 @@ form {
   }
 
   #panel {
+    display: none;
     margin: 15%;
     height: 10%;
     width: 10%;

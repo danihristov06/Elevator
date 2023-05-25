@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Elevator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <form action="#" method="get">
+  <form class="form" action="http://localhost:3000/data" method="POST">
 
     <div class="container">
       <label for="name"><b>Username</b></label>
@@ -19,7 +19,7 @@
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
 
-      <button type="submit">Login</button>
+      <button type="submit">Login/Register</button>
       <div class="slidecontainer">
         <span class="tooltip">0</span>
         <label for="slider">Max floor access</label>
@@ -32,6 +32,13 @@
     </div>
 
   </form>
+
+  <div id="panel">
+    <!-- <div class="buttons active">0</div> -->
+    <!-- <div class="canvas"></div> -->
+  </div>
+
+  
   <script src="script.js"></script>
 </body>
 
